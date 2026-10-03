@@ -30,7 +30,7 @@ If you use the AI advice feature, the text you enter and the selected photo spec
 
 ## Advertising
 
-The free version may display a Google AdMob banner on the home page. Where required, the app uses Google's User Messaging Platform to request and manage advertising choices before requesting an ad. Google may process device and advertising information to deliver and measure ads, subject to your choices and Google's policies. An advertising-privacy option is available in Settings when required. Advertising consent is separate from the optional travel-interest setting. Ads are not shown over photo capture or editing.
+The free version may display a Google AdMob banner on the home page and offer an optional rewarded ad before print-sheet export. Where required, the app uses Google's User Messaging Platform to request and manage advertising choices before requesting an ad. Google may process device and advertising information to deliver and measure ads, subject to your choices and Google's policies. An advertising-privacy option is available in Settings when required. Advertising consent is separate from the optional travel-interest setting. Ads are not shown over photo capture or editing.
 
 See [Google's privacy policy](https://policies.google.com/privacy) for information about its services.
 
@@ -38,7 +38,7 @@ See [Google's privacy policy](https://policies.google.com/privacy) for informati
 
 Source projects are currently kept in the app's private storage for up to 30 days. Expired projects are removed the next time the app runs; this is not a continuously running background deletion service. You can delete individual projects or all projects in the app. The app also attempts to delete the corresponding Firebase project information and raw travel signals when it deletes a project. If that network operation fails, the server copy may remain; contact us to request its removal. Deleting the app removes its private on-device files, but does not by itself delete data previously synchronized to Firebase or exported elsewhere.
 
-You can change the travel-interest setting in Settings. You can edit or remove your community nickname there. Signing out does not delete your account, posts, or server-side data. To request deletion of your account and associated server-side data, or to ask a privacy question, contact us using the address below. We may need to verify that the account belongs to you before deleting it.
+You can change the travel-interest setting in Settings. You can edit or remove your community nickname there. Signing out does not delete your account, posts, or server-side data. To request deletion of your account and associated server-side data, use **Settings → Request account deletion** or the public [account-deletion request page](account-deletion.html). We may need to verify that the account belongs to you before deleting it.
 
 ## Security and changes
 
