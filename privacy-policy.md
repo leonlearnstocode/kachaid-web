@@ -24,6 +24,8 @@ To read or contribute community photo tips, you can sign in with Google or an em
 
 If you participate, Firebase stores the nickname you choose, your text tips, account-linked author identifier, votes, reports, and relevant timestamps. Other signed-in members can see tips and your chosen nickname (or a pseudonymous label if you have not chosen one). Do not post private information in a tip.
 
+The community avatar is generated inside the app from an account identifier. It does not upload a profile photo or send that identifier to an avatar service.
+
 ## AI advice
 
 If you use the AI advice feature, the text you enter and the selected photo specification are sent through a Firebase Cloud Function to Google's Gemini service to generate a response. The app does not include your photo in that request. Avoid entering sensitive personal information in your prompt.
